@@ -2,86 +2,79 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yola Konversi Suhu</title>
-    
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yola Konversi Suhu</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Website Konversi Suhu</h1>
-    </header>
+  <header>
+    <h1>Website Konversi Suhu</h1>
+  </header>
 
-    <main>
-        <h2>Masukan suhu derajat Celcius (&deg;C)</h2>
-       
+  <main>
+    <h2>Masukan suhu derajat Celcius (&deg;C)</h2>
+
+    <section>
+      <header>
+        <h3>Celcius (&deg;C):</h3>
+      </header>
+
+      <section>
+        <textarea id="celciusInput"></textarea>
+      </section>
+
+      <section class="button">
+        <button id="konversi">KONVERSI</button>
+        <button id="reset">RESET</button>
+        <button id="reverse">REVERSE</button>
+      </section>
+
+      <section>
         <section>
-            <header>
-                <h3>Celcius (&deg;C):</h3>
-            </header>
+          <header>
+            <h3>Fahrenheit (&deg;F):</h3>
+          </header>
 
-            <section>
-                <textarea></textarea>
-
-             <section>
-            <button>Konversi</button> 
-            <button>Reset</button> 
-            <button>Reverse</button>  
-             </section>
-            </section>
-
-        <section>
-            <section>
-                <header>
-                    <h3>Fahrenheit (&deg;F):</h3>
-                </header>
-        
-                <section>
-                    <textarea></textarea>
-                </section>
-        
-                <section>
-                    <header>
-                        <h3>Convertion Calculate:</h3>
-                    </header>
-        
-                    <section>
-                        <textarea></textarea>
-                    </section>
-                </section>
+          <section>
+            <textarea id="fahrenheitInput"></textarea>
+          </section>
         </section>
 
         <section>
-            <header>
-                <h1> Cara Konversi Dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h1>
-            </header>
+          <header>
+            <h3>Convertion Calculate:</h3>
+          </header>
 
-            <hr/>
-
-            <p>Suhu <span class="subject-info"> S </span> dalam derajat Fahrenheit (&deg;F) sama dengan 
-            suhu <span class="subject-info"> S </span> dalam derajat Celcius (&deg;C) ...
-            </p>
-
-            <p>
-                <span class="subject-info"> S </span> <sub>(&deg;F)</sub> = <span class="subject-info"> S (</span> 
-                <sub>(&deg;C)</sub> x 1.8) + 32
-            </p>
-
-            <p>
-                <span class="subject-info"> S </span> <sub>(&deg;C)</sub> = <span class="subject-info"> S (</span> 
-                <sub>(&deg;F)</sub> - 32) / 1.8
-            </p>
+          <section>
+            <textarea id="convertionCalculate"></textarea>
+          </section>
         </section>
+      </section>
 
-        <section>
+      <section>
+        <header>
+          <h1>Cara Konversi Dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h1>
+        </header>
+
+        <hr />
+
+         <section class="kalkulasi">
+    <h3>Cara Kalkulasi</h3>
+    <p>Suhu <span>S</span> dalam derajat Fahrenheit (°F) sama dengan suhu S dalam derajat Celsius (°C) kali 9/5 tambah 32.
+    S<sub>(°F)</sub> (S<sub>(°C)</sub> × 9/5) + 32
+    atau
+    S<sub>(°F)</sub> (S<sub>(°C)</sub> × 1.8) + 32</P>
+  </section>
+</section>
 
         </section>
-    </main>
+      </section>
+    </section>
+  </main>
 
-    <script src="js/script.js"></script>
- 
+  <script src="js/script.js"></script>
 </body>
 
 </html>

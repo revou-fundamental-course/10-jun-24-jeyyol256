@@ -1,85 +1,80 @@
-/* Reset default browser styles */
-body, h1, h3, p {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: initial;
-    line-height: 1.6;
-    background-color: #b6d3e6;
-}
-
-header {
-    background-color: #619cb6;
-    color: #060202;
-    text-align: center;
-    padding: 10px 0;
-}
-
-header h1 {
-    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
-    background-color: #83cce7;
-}
-
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #98def6;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #000000;
-    margin-bottom: 10px;
-}
-h3 {
-    color: #ffffff;
-    margin-bottom: 10px;
-}
-
-section {
+    padding: 30px;
+    background-color: #f8b5d3;
+  }
+  
+  header {
+    text-align: center;
     margin-bottom: 20px;
-}
-
-textarea {
+  }
+  
+  h1 {
+    color: #320a2b;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9cbef;
+    border-radius: 10px;
+    box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  header {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 98%;
+    height: 50px;
+    padding: 10px;
+    border: 2px solid #3b0834;
+    background-color: rgb(169, 123, 156);
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .button {
+    display:contents;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  button {
+    font-family: Verdana,  Tahoma, sans-serif;
+    padding: 10px 20px;
+    background-color: #e9e2c7; /* blue */
+    color: rgb(73, 41, 17);
+    border: 2px solid #3b0834;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #b58b8b; /* blue */
+  }
+  
+  .kalkulasi {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #rumus {
     width: 100%;
     padding: 10px;
-    font-size: 16px;
-    border: 1px solid #000000;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-}
+    border: 2px solid #320631;
+    border-radius: 5px;
+    resize: none;
 
-button {
-    padding: 10px 20px;
-    margin-right: 10px;
-    cursor: pointer;
-    background-color: #171aea;
-    color: #f3ecec;
-    border: none;
-    border-radius: 4px;
-}
+  
+  /* Add more styles as needed for specific elements or layout */
 
-button:hover {
-    background-color: #ba641d;
-}
-
-.subject-info {
-    font-style: italic;
-    font-weight: bold;
-}
-
-hr {
-    border: none;
-    border-top: 1px solid #ccc;
-    margin: 20px 0;
-}
-
-p {
-    margin-bottom: 10px;
-}
+  
